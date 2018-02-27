@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE0044982046167B00D7BE87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0044972046167B00D7BE87 /* AppDelegate.swift */; };
+		DE00449A2046167B00D7BE87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0044992046167B00D7BE87 /* ViewController.swift */; };
+		DE00449D2046167B00D7BE87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE00449B2046167B00D7BE87 /* Main.storyboard */; };
+		DE00449F2046167B00D7BE87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE00449E2046167B00D7BE87 /* Assets.xcassets */; };
+		DE0044A22046167B00D7BE87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0044A02046167B00D7BE87 /* LaunchScreen.storyboard */; };
+		DE0044AD2046167B00D7BE87 /* Fun_SwiptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0044AC2046167B00D7BE87 /* Fun_SwiptTests.swift */; };
+		DE0044B82046167B00D7BE87 /* Fun_SwiptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0044B72046167B00D7BE87 /* Fun_SwiptUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE0044A92046167B00D7BE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE00448C2046167A00D7BE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0044932046167B00D7BE87;
+			remoteInfo = "Fun Swipt";
+		};
+		DE0044B42046167B00D7BE87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE00448C2046167A00D7BE87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE0044932046167B00D7BE87;
+			remoteInfo = "Fun Swipt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE0044942046167B00D7BE87 /* Fun Swipt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun Swipt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0044972046167B00D7BE87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE0044992046167B00D7BE87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE00449C2046167B00D7BE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE00449E2046167B00D7BE87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE0044A12046167B00D7BE87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE0044A32046167B00D7BE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0044A82046167B00D7BE87 /* Fun SwiptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun SwiptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0044AC2046167B00D7BE87 /* Fun_SwiptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_SwiptTests.swift; sourceTree = "<group>"; };
+		DE0044AE2046167B00D7BE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE0044B32046167B00D7BE87 /* Fun SwiptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fun SwiptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0044B72046167B00D7BE87 /* Fun_SwiptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fun_SwiptUITests.swift; sourceTree = "<group>"; };
+		DE0044B92046167B00D7BE87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE0044912046167B00D7BE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044A52046167B00D7BE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044B02046167B00D7BE87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE00448B2046167A00D7BE87 = {
+			isa = PBXGroup;
+			children = (
+				DE0044962046167B00D7BE87 /* Fun Swipt */,
+				DE0044AB2046167B00D7BE87 /* Fun SwiptTests */,
+				DE0044B62046167B00D7BE87 /* Fun SwiptUITests */,
+				DE0044952046167B00D7BE87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE0044952046167B00D7BE87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE0044942046167B00D7BE87 /* Fun Swipt.app */,
+				DE0044A82046167B00D7BE87 /* Fun SwiptTests.xctest */,
+				DE0044B32046167B00D7BE87 /* Fun SwiptUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE0044962046167B00D7BE87 /* Fun Swipt */ = {
+			isa = PBXGroup;
+			children = (
+				DE0044972046167B00D7BE87 /* AppDelegate.swift */,
+				DE0044992046167B00D7BE87 /* ViewController.swift */,
+				DE00449B2046167B00D7BE87 /* Main.storyboard */,
+				DE00449E2046167B00D7BE87 /* Assets.xcassets */,
+				DE0044A02046167B00D7BE87 /* LaunchScreen.storyboard */,
+				DE0044A32046167B00D7BE87 /* Info.plist */,
+			);
+			path = "Fun Swipt";
+			sourceTree = "<group>";
+		};
+		DE0044AB2046167B00D7BE87 /* Fun SwiptTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0044AC2046167B00D7BE87 /* Fun_SwiptTests.swift */,
+				DE0044AE2046167B00D7BE87 /* Info.plist */,
+			);
+			path = "Fun SwiptTests";
+			sourceTree = "<group>";
+		};
+		DE0044B62046167B00D7BE87 /* Fun SwiptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE0044B72046167B00D7BE87 /* Fun_SwiptUITests.swift */,
+				DE0044B92046167B00D7BE87 /* Info.plist */,
+			);
+			path = "Fun SwiptUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE0044932046167B00D7BE87 /* Fun Swipt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0044BC2046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun Swipt" */;
+			buildPhases = (
+				DE0044902046167B00D7BE87 /* Sources */,
+				DE0044912046167B00D7BE87 /* Frameworks */,
+				DE0044922046167B00D7BE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fun Swipt";
+			productName = "Fun Swipt";
+			productReference = DE0044942046167B00D7BE87 /* Fun Swipt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE0044A72046167B00D7BE87 /* Fun SwiptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0044BF2046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun SwiptTests" */;
+			buildPhases = (
+				DE0044A42046167B00D7BE87 /* Sources */,
+				DE0044A52046167B00D7BE87 /* Frameworks */,
+				DE0044A62046167B00D7BE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0044AA2046167B00D7BE87 /* PBXTargetDependency */,
+			);
+			name = "Fun SwiptTests";
+			productName = "Fun SwiptTests";
+			productReference = DE0044A82046167B00D7BE87 /* Fun SwiptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE0044B22046167B00D7BE87 /* Fun SwiptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0044C22046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun SwiptUITests" */;
+			buildPhases = (
+				DE0044AF2046167B00D7BE87 /* Sources */,
+				DE0044B02046167B00D7BE87 /* Frameworks */,
+				DE0044B12046167B00D7BE87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE0044B52046167B00D7BE87 /* PBXTargetDependency */,
+			);
+			name = "Fun SwiptUITests";
+			productName = "Fun SwiptUITests";
+			productReference = DE0044B32046167B00D7BE87 /* Fun SwiptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE00448C2046167A00D7BE87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Seth Crist";
+				TargetAttributes = {
+					DE0044932046167B00D7BE87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DE0044A72046167B00D7BE87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE0044932046167B00D7BE87;
+					};
+					DE0044B22046167B00D7BE87 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE0044932046167B00D7BE87;
+					};
+				};
+			};
+			buildConfigurationList = DE00448F2046167A00D7BE87 /* Build configuration list for PBXProject "Fun Swipt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE00448B2046167A00D7BE87;
+			productRefGroup = DE0044952046167B00D7BE87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE0044932046167B00D7BE87 /* Fun Swipt */,
+				DE0044A72046167B00D7BE87 /* Fun SwiptTests */,
+				DE0044B22046167B00D7BE87 /* Fun SwiptUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE0044922046167B00D7BE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0044A22046167B00D7BE87 /* LaunchScreen.storyboard in Resources */,
+				DE00449F2046167B00D7BE87 /* Assets.xcassets in Resources */,
+				DE00449D2046167B00D7BE87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044A62046167B00D7BE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044B12046167B00D7BE87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE0044902046167B00D7BE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE00449A2046167B00D7BE87 /* ViewController.swift in Sources */,
+				DE0044982046167B00D7BE87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044A42046167B00D7BE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0044AD2046167B00D7BE87 /* Fun_SwiptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0044AF2046167B00D7BE87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE0044B82046167B00D7BE87 /* Fun_SwiptUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE0044AA2046167B00D7BE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0044932046167B00D7BE87 /* Fun Swipt */;
+			targetProxy = DE0044A92046167B00D7BE87 /* PBXContainerItemProxy */;
+		};
+		DE0044B52046167B00D7BE87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE0044932046167B00D7BE87 /* Fun Swipt */;
+			targetProxy = DE0044B42046167B00D7BE87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE00449B2046167B00D7BE87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE00449C2046167B00D7BE87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE0044A02046167B00D7BE87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE0044A12046167B00D7BE87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE0044BA2046167B00D7BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE0044BB2046167B00D7BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE0044BD2046167B00D7BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun Swipt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-Swipt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE0044BE2046167B00D7BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun Swipt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-Swipt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE0044C02046167B00D7BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun SwiptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-SwiptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun Swipt.app/Fun Swipt";
+			};
+			name = Debug;
+		};
+		DE0044C12046167B00D7BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun SwiptTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-SwiptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fun Swipt.app/Fun Swipt";
+			};
+			name = Release;
+		};
+		DE0044C32046167B00D7BE87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun SwiptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-SwiptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fun Swipt";
+			};
+			name = Debug;
+		};
+		DE0044C42046167B00D7BE87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 45LYGFPQ4K;
+				INFOPLIST_FILE = "Fun SwiptUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Seth.Crist.Fun-SwiptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fun Swipt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE00448F2046167A00D7BE87 /* Build configuration list for PBXProject "Fun Swipt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0044BA2046167B00D7BE87 /* Debug */,
+				DE0044BB2046167B00D7BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0044BC2046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun Swipt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0044BD2046167B00D7BE87 /* Debug */,
+				DE0044BE2046167B00D7BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0044BF2046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun SwiptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0044C02046167B00D7BE87 /* Debug */,
+				DE0044C12046167B00D7BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0044C22046167B00D7BE87 /* Build configuration list for PBXNativeTarget "Fun SwiptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE0044C32046167B00D7BE87 /* Debug */,
+				DE0044C42046167B00D7BE87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE00448C2046167A00D7BE87 /* Project object */;
+}
